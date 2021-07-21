@@ -1,0 +1,44 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+#field {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1000px;
+    height: 550px;
+    background-image: image-url('field.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid black 3px;
+    margin: 0 3px;
+}
+
+#logs {
+    display: inline-block;
+    vertical-align: middle;
+    overflow-y: scroll;
+    width: 300px;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+    color: green;
+}
+
+.box {
+    border: solid darkgreen 3px;
+    position: absolute;
+    z-index: 1;
+}
